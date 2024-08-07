@@ -1,2 +1,1 @@
-﻿SELECT * FROM users;
-SELECT * FROM employees;
+﻿SELECT * FROM job_roles
