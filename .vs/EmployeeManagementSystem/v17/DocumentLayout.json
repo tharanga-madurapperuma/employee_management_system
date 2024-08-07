@@ -1,50 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\",
+  "WorkspaceRootPath": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\programming\\visual studio\\employee-management-system-in-csharp\\employeemanagementsystem\\employeemanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\employeemanagementsystem\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\employeemanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\employeemanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\my drive\\campus\\course\\year 3\\becs 31242 visual programming\\project\\employee_management_system\\employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\employeemanagementsystem\\salarydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\salarydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\my drive\\campus\\course\\year 3\\becs 31242 visual programming\\project\\employee_management_system\\employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\employeemanagementsystem\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\my drive\\campus\\course\\year 3\\becs 31242 visual programming\\project\\employee_management_system\\employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,120 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeData.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeData.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\EmployeeData.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeData.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\EmployeeData.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAUwBQAAAAsAAAA",
+              "DocumentIndex": 0,
+              "Title": "AddEmployee.cs",
+              "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\AddEmployee.cs",
+              "ToolTip": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAYwJIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:37:17.631Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\SQLQuery1.sql",
-              "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "SQLQuery1.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-19T13:47:46.789Z",
+              "WhenOpened": "2024-08-06T10:00:38.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs [Design]*",
-              "RelativeToolTip": "EmployeeManagementSystem\\Form1.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:30:53.223Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\RegisterForm.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\RegisterForm.cs [Design]*",
-              "RelativeToolTip": "EmployeeManagementSystem\\RegisterForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:30:49.113Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\MainForm.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\MainForm.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\MainForm.cs [Design]",
-              "RelativeToolTip": "EmployeeManagementSystem\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:30:46.336Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\MainForm.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\MainForm.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\MainForm.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\MainForm.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwDYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T10:09:09.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddEmployee.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\AddEmployee.cs",
+              "Title": "AddEmployee.cs [Design]",
+              "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
               "RelativeDocumentMoniker": "EmployeeManagementSystem\\AddEmployee.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\AddEmployee.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs",
-              "ViewState": "AQIAAMcAAAAAAAAAAADwv1cAAAC7AAAA",
+              "ToolTip": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T10:10:29.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T10:00:36.388Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SalaryData.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\SalaryData.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\SalaryData.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\SalaryData.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\SalaryData.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAADDAAAA",
+              "DocumentIndex": 2,
+              "Title": "UserControl1.cs [Design]",
+              "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\UserControl1.cs",
+              "ToolTip": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\UserControl1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T14:31:02.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterForm.Designer.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\RegisterForm.Designer.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\RegisterForm.Designer.cs",
-              "ToolTip": "D:\\Programming\\Visual Studio\\Employee-Management-System-in-CSharp\\EmployeeManagementSystem\\EmployeeManagementSystem\\RegisterForm.Designer.cs*",
-              "RelativeToolTip": "EmployeeManagementSystem\\RegisterForm.Designer.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:36:45.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T07:17:01.05Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

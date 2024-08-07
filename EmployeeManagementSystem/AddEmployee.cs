@@ -16,7 +16,7 @@ namespace EmployeeManagementSystem
     public partial class AddEmployee : UserControl
     {
         SqlConnection connect
-                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
 
         public AddEmployee()
         {
@@ -327,6 +327,21 @@ namespace EmployeeManagementSystem
                 }
 
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void AddEmployee_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

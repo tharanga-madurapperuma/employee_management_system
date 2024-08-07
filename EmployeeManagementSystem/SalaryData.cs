@@ -19,7 +19,7 @@ namespace EmployeeManagementSystem
         public int Salary { set; get; } // 5
 
         SqlConnection connect
-                            = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+                            = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
         public List<SalaryData> salaryEmployeeListData()
         {
             List<SalaryData> listdata = new List<SalaryData>();

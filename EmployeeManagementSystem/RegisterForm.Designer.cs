@@ -40,10 +40,10 @@ namespace EmployeeManagementSystem
             this.exit = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.signup_loginBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -60,12 +60,11 @@ namespace EmployeeManagementSystem
             this.signup_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
             this.signup_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
             this.signup_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.signup_btn.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_btn.ForeColor = System.Drawing.Color.White;
-            this.signup_btn.Location = new System.Drawing.Point(41, 423);
-            this.signup_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.signup_btn.Location = new System.Drawing.Point(31, 344);
             this.signup_btn.Name = "signup_btn";
-            this.signup_btn.Size = new System.Drawing.Size(124, 42);
+            this.signup_btn.Size = new System.Drawing.Size(93, 34);
             this.signup_btn.TabIndex = 17;
             this.signup_btn.Text = "SIGNUP";
             this.signup_btn.UseVisualStyleBackColor = false;
@@ -74,11 +73,10 @@ namespace EmployeeManagementSystem
             // signup_showPass
             // 
             this.signup_showPass.AutoSize = true;
-            this.signup_showPass.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup_showPass.Location = new System.Drawing.Point(223, 384);
-            this.signup_showPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.signup_showPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_showPass.Location = new System.Drawing.Point(167, 312);
             this.signup_showPass.Name = "signup_showPass";
-            this.signup_showPass.Size = new System.Drawing.Size(137, 22);
+            this.signup_showPass.Size = new System.Drawing.Size(114, 19);
             this.signup_showPass.TabIndex = 16;
             this.signup_showPass.Text = "Show Password";
             this.signup_showPass.UseVisualStyleBackColor = true;
@@ -87,45 +85,41 @@ namespace EmployeeManagementSystem
             // signup_password
             // 
             this.signup_password.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup_password.Location = new System.Drawing.Point(41, 341);
-            this.signup_password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.signup_password.Location = new System.Drawing.Point(31, 277);
             this.signup_password.Multiline = true;
             this.signup_password.Name = "signup_password";
             this.signup_password.PasswordChar = '*';
-            this.signup_password.Size = new System.Drawing.Size(312, 36);
+            this.signup_password.Size = new System.Drawing.Size(235, 30);
             this.signup_password.TabIndex = 15;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.label4.Location = new System.Drawing.Point(37, 317);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(28, 258);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 18);
+            this.label4.Size = new System.Drawing.Size(61, 15);
             this.label4.TabIndex = 14;
             this.label4.Text = "Password";
             // 
             // signup_username
             // 
             this.signup_username.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup_username.Location = new System.Drawing.Point(41, 264);
-            this.signup_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.signup_username.Location = new System.Drawing.Point(31, 214);
             this.signup_username.Multiline = true;
             this.signup_username.Name = "signup_username";
-            this.signup_username.Size = new System.Drawing.Size(312, 36);
+            this.signup_username.Size = new System.Drawing.Size(235, 30);
             this.signup_username.TabIndex = 13;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.label3.Location = new System.Drawing.Point(37, 241);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(28, 196);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 18);
+            this.label3.Size = new System.Drawing.Size(39, 15);
             this.label3.TabIndex = 12;
             this.label3.Text = "Email";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -133,11 +127,10 @@ namespace EmployeeManagementSystem
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(111, 39);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(83, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 28);
+            this.label2.Size = new System.Drawing.Size(154, 24);
             this.label2.TabIndex = 11;
             this.label2.Text = "Create Account";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -147,12 +140,11 @@ namespace EmployeeManagementSystem
             this.exit.AutoSize = true;
             this.exit.BackColor = System.Drawing.Color.Salmon;
             this.exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.exit.Font = new System.Drawing.Font("Roboto Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit.Location = new System.Drawing.Point(342, 8);
-            this.exit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit.Location = new System.Drawing.Point(256, 6);
             this.exit.Name = "exit";
-            this.exit.Padding = new System.Windows.Forms.Padding(4);
-            this.exit.Size = new System.Drawing.Size(30, 30);
+            this.exit.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.exit.Size = new System.Drawing.Size(25, 24);
             this.exit.TabIndex = 10;
             this.exit.Text = "X";
             this.exit.Click += new System.EventHandler(this.exit_Click);
@@ -169,31 +161,41 @@ namespace EmployeeManagementSystem
             this.panel1.Controls.Add(this.signup_loginBtn);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.exit);
-            this.panel1.Location = new System.Drawing.Point(386, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(290, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(385, 492);
+            this.panel1.Size = new System.Drawing.Size(289, 400);
             this.panel1.TabIndex = 9;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(122, 73);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(92, 59);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 123);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.label1.Location = new System.Drawing.Point(100, 202);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 26);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "System";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.label6.Location = new System.Drawing.Point(38, 215);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(28, 175);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(311, 34);
+            this.label6.Size = new System.Drawing.Size(262, 26);
             this.label6.TabIndex = 2;
             this.label6.Text = "Employee Management";
             // 
@@ -205,12 +207,11 @@ namespace EmployeeManagementSystem
             this.signup_loginBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumSpringGreen;
             this.signup_loginBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSpringGreen;
             this.signup_loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.signup_loginBtn.Font = new System.Drawing.Font("Roboto Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_loginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_loginBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.signup_loginBtn.Location = new System.Drawing.Point(122, 435);
-            this.signup_loginBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.signup_loginBtn.Location = new System.Drawing.Point(92, 353);
             this.signup_loginBtn.Name = "signup_loginBtn";
-            this.signup_loginBtn.Size = new System.Drawing.Size(121, 38);
+            this.signup_loginBtn.Size = new System.Drawing.Size(91, 31);
             this.signup_loginBtn.TabIndex = 1;
             this.signup_loginBtn.Text = "LOGIN";
             this.signup_loginBtn.UseVisualStyleBackColor = false;
@@ -219,48 +220,32 @@ namespace EmployeeManagementSystem
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(89, 398);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(67, 323);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(200, 18);
+            this.label5.Size = new System.Drawing.Size(163, 15);
             this.label5.TabIndex = 0;
             this.label5.Text = "Already signup... login here...";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.label1.Location = new System.Drawing.Point(134, 249);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 34);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "System";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(41, 120);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(31, 98);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(312, 36);
+            this.textBox1.Size = new System.Drawing.Size(235, 30);
             this.textBox1.TabIndex = 19;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.label7.Location = new System.Drawing.Point(37, 96);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(28, 78);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 18);
+            this.label7.Size = new System.Drawing.Size(67, 15);
             this.label7.TabIndex = 18;
             this.label7.Text = "First Name";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -268,31 +253,29 @@ namespace EmployeeManagementSystem
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(41, 194);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Location = new System.Drawing.Point(31, 158);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(312, 36);
+            this.textBox2.Size = new System.Drawing.Size(235, 30);
             this.textBox2.TabIndex = 21;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.label8.Location = new System.Drawing.Point(37, 170);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(28, 138);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 18);
+            this.label8.Size = new System.Drawing.Size(67, 15);
             this.label8.TabIndex = 20;
             this.label8.Text = "Last Name";
             // 
             // RegisterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(767, 492);
+            this.ClientSize = new System.Drawing.Size(575, 400);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox1);
@@ -306,7 +289,6 @@ namespace EmployeeManagementSystem
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegisterForm";
