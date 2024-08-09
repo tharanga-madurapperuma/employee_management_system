@@ -117,6 +117,12 @@
     <Compile Include="AddEmployee.Designer.cs">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Attendence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Attendence.Designer.cs">
+      <DependentUpon>Attendence.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     <Compile Include="SalaryData.cs" />
     <EmbeddedResource Include="AddEmployee.resx">
       <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendence.resx">
+      <DependentUpon>Attendence.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>

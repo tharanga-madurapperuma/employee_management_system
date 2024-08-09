@@ -117,3 +117,4 @@ D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem
 D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
 D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Siticone.UI.dll
 D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.jobRole.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.attendence.resources
