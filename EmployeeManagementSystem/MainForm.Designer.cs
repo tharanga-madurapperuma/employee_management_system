@@ -33,6 +33,8 @@ namespace EmployeeManagementSystem
             this.label2 = new System.Windows.Forms.Label();
             this.exit = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.siticoneRoundedButton1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
+            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.dashboard_btn = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.addEmployee_btn = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.salary_btn = new Siticone.UI.WinForms.SiticoneRoundedButton();
@@ -41,11 +43,11 @@ namespace EmployeeManagementSystem
             this.logout_btn = new System.Windows.Forms.Button();
             this.greet_user = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.attendence1 = new EmployeeManagementSystem.Attendence();
             this.jobRole1 = new EmployeeManagementSystem.jobRole();
             this.dashboard1 = new EmployeeManagementSystem.Dashboard();
             this.addEmployee1 = new EmployeeManagementSystem.AddEmployee();
             this.salary1 = new EmployeeManagementSystem.Salary();
-            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -94,6 +96,7 @@ namespace EmployeeManagementSystem
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel2.Controls.Add(this.siticoneRoundedButton1);
             this.panel2.Controls.Add(this.gunaLabel1);
             this.panel2.Controls.Add(this.dashboard_btn);
             this.panel2.Controls.Add(this.addEmployee_btn);
@@ -109,6 +112,32 @@ namespace EmployeeManagementSystem
             this.panel2.Size = new System.Drawing.Size(300, 695);
             this.panel2.TabIndex = 1;
             // 
+            // siticoneRoundedButton1
+            // 
+            this.siticoneRoundedButton1.CheckedState.Parent = this.siticoneRoundedButton1;
+            this.siticoneRoundedButton1.CustomImages.Parent = this.siticoneRoundedButton1;
+            this.siticoneRoundedButton1.FillColor = System.Drawing.Color.SpringGreen;
+            this.siticoneRoundedButton1.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold);
+            this.siticoneRoundedButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.siticoneRoundedButton1.HoveredState.Parent = this.siticoneRoundedButton1;
+            this.siticoneRoundedButton1.Location = new System.Drawing.Point(26, 479);
+            this.siticoneRoundedButton1.Name = "siticoneRoundedButton1";
+            this.siticoneRoundedButton1.ShadowDecoration.Parent = this.siticoneRoundedButton1;
+            this.siticoneRoundedButton1.Size = new System.Drawing.Size(249, 49);
+            this.siticoneRoundedButton1.TabIndex = 11;
+            this.siticoneRoundedButton1.Text = "ATTENDENCE";
+            this.siticoneRoundedButton1.Click += new System.EventHandler(this.siticoneRoundedButton1_Click);
+            // 
+            // gunaLabel1
+            // 
+            this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel1.Location = new System.Drawing.Point(21, 99);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(189, 48);
+            this.gunaLabel1.TabIndex = 10;
+            this.gunaLabel1.Text = "Tharanga";
+            // 
             // dashboard_btn
             // 
             this.dashboard_btn.CheckedState.Parent = this.dashboard_btn;
@@ -117,7 +146,7 @@ namespace EmployeeManagementSystem
             this.dashboard_btn.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold);
             this.dashboard_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dashboard_btn.HoveredState.Parent = this.dashboard_btn;
-            this.dashboard_btn.Location = new System.Drawing.Point(26, 278);
+            this.dashboard_btn.Location = new System.Drawing.Point(26, 246);
             this.dashboard_btn.Name = "dashboard_btn";
             this.dashboard_btn.ShadowDecoration.Parent = this.dashboard_btn;
             this.dashboard_btn.Size = new System.Drawing.Size(249, 49);
@@ -133,7 +162,7 @@ namespace EmployeeManagementSystem
             this.addEmployee_btn.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold);
             this.addEmployee_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addEmployee_btn.HoveredState.Parent = this.addEmployee_btn;
-            this.addEmployee_btn.Location = new System.Drawing.Point(26, 453);
+            this.addEmployee_btn.Location = new System.Drawing.Point(26, 421);
             this.addEmployee_btn.Name = "addEmployee_btn";
             this.addEmployee_btn.ShadowDecoration.Parent = this.addEmployee_btn;
             this.addEmployee_btn.Size = new System.Drawing.Size(249, 49);
@@ -149,7 +178,7 @@ namespace EmployeeManagementSystem
             this.salary_btn.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.salary_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.salary_btn.HoveredState.Parent = this.salary_btn;
-            this.salary_btn.Location = new System.Drawing.Point(26, 337);
+            this.salary_btn.Location = new System.Drawing.Point(26, 305);
             this.salary_btn.Name = "salary_btn";
             this.salary_btn.ShadowDecoration.Parent = this.salary_btn;
             this.salary_btn.Size = new System.Drawing.Size(249, 49);
@@ -165,7 +194,7 @@ namespace EmployeeManagementSystem
             this.SalaryDetailsButton.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SalaryDetailsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.SalaryDetailsButton.HoveredState.Parent = this.SalaryDetailsButton;
-            this.SalaryDetailsButton.Location = new System.Drawing.Point(26, 395);
+            this.SalaryDetailsButton.Location = new System.Drawing.Point(26, 363);
             this.SalaryDetailsButton.Name = "SalaryDetailsButton";
             this.SalaryDetailsButton.ShadowDecoration.Parent = this.SalaryDetailsButton;
             this.SalaryDetailsButton.Size = new System.Drawing.Size(249, 49);
@@ -218,6 +247,7 @@ namespace EmployeeManagementSystem
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.attendence1);
             this.panel3.Controls.Add(this.jobRole1);
             this.panel3.Controls.Add(this.dashboard1);
             this.panel3.Controls.Add(this.addEmployee1);
@@ -228,6 +258,13 @@ namespace EmployeeManagementSystem
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1167, 695);
             this.panel3.TabIndex = 2;
+            // 
+            // attendence1
+            // 
+            this.attendence1.Location = new System.Drawing.Point(0, 0);
+            this.attendence1.Name = "attendence1";
+            this.attendence1.Size = new System.Drawing.Size(1167, 695);
+            this.attendence1.TabIndex = 4;
             // 
             // jobRole1
             // 
@@ -259,16 +296,6 @@ namespace EmployeeManagementSystem
             this.salary1.Name = "salary1";
             this.salary1.Size = new System.Drawing.Size(1167, 695);
             this.salary1.TabIndex = 0;
-            // 
-            // gunaLabel1
-            // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel1.Location = new System.Drawing.Point(21, 99);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(189, 48);
-            this.gunaLabel1.TabIndex = 10;
-            this.gunaLabel1.Text = "Tharanga";
             // 
             // MainForm
             // 
@@ -311,5 +338,7 @@ namespace EmployeeManagementSystem
         private Siticone.UI.WinForms.SiticoneRoundedButton salary_btn;
         private Siticone.UI.WinForms.SiticoneRoundedButton dashboard_btn;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton1;
+        private EmployeeManagementSystem.Attendence attendence1;
     }
 }

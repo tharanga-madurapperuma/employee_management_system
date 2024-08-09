@@ -43,6 +43,7 @@ namespace EmployeeManagementSystem
             addEmployee1.Visible = false;
             salary1.Visible = true;
             jobRole1.Visible = false;
+            attendence1.Visible = false;
 
             Salary salaryForm = salary1 as Salary;
 
@@ -59,6 +60,7 @@ namespace EmployeeManagementSystem
             addEmployee1.Visible = false;
             salary1.Visible = false;
             jobRole1.Visible = false;
+            attendence1.Visible = false;
         }
 
         private void salary_btn_Click_1(object sender, EventArgs e)
@@ -67,6 +69,7 @@ namespace EmployeeManagementSystem
             addEmployee1.Visible = false;
             salary1.Visible = true;
             jobRole1.Visible = false;
+            attendence1.Visible = false;
         }
 
         private void SalaryDetailsButton_Click(object sender, EventArgs e)
@@ -83,6 +86,7 @@ namespace EmployeeManagementSystem
             addEmployee1.Visible = true;
             salary1.Visible = false;
             jobRole1.Visible = false;
+            attendence1.Visible = false;
 
             AddEmployee addEmForm = addEmployee1 as AddEmployee;
 
@@ -99,6 +103,7 @@ namespace EmployeeManagementSystem
             addEmployee1.Visible = false;
             salary1.Visible = false;
             jobRole1.Visible = false;
+            attendence1.Visible = false;
 
             Dashboard dashForm = dashboard1 as Dashboard;
 
@@ -107,6 +112,15 @@ namespace EmployeeManagementSystem
                 dashForm.RefreshData();
             }
 
+        }
+
+        private void siticoneRoundedButton1_Click(object sender, EventArgs e)
+        {
+            dashboard1.Visible = false;
+            addEmployee1.Visible = false;
+            salary1.Visible = false;
+            jobRole1.Visible = false;
+            attendence1.Visible = true;
         }
     }
 }
