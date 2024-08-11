@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\",
   "Documents": [
     {
@@ -13,6 +14,29 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\my drive\\campus\\course\\year 3\\becs 31242 visual programming\\project\\employee_management_system\\employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+  "WorkspaceRootPath": "D:\\Programming\\Visual Studio\\employee_management_system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\employee_management_system\\employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\employee_management_system\\employeemanagementsystem\\jobrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\jobrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\employee_management_system\\employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\programming\\visual studio\\employee_management_system\\employeemanagementsystem\\attendence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\attendence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Programming\\Visual Studio\\employee_management_system\\employeemanagementsystem\\jobrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\jobrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +49,12 @@
           "SelectedChildIndex": 0,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "AddEmployee.cs",
               "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
@@ -35,10 +64,35 @@
               "ViewState": "AQIAAGMAAAAAAAAAAAAYwJIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T10:00:38.06Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "Attendence.Designer.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\Attendence.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Attendence.Designer.cs",
+              "ToolTip": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\Attendence.Designer.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Attendence.Designer.cs",
+              "ViewState": "AQIAAKoBAAAAAAAAAAAjwK4BAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:19:41.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Attendence.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Attendence.cs",
+              "ToolTip": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Attendence.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAAIwCYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T03:10:46.049Z",
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "AddEmployee.cs [Design]",
               "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
@@ -47,10 +101,21 @@
               "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T10:00:36.388Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "Attendence.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Attendence.cs",
+              "ToolTip": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\Attendence.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T03:09:51.011Z",
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "UserControl1.cs [Design]",
               "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs",
@@ -60,6 +125,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T07:17:01.05Z",
               "EditorCaption": " [Design]"
+=======
+              "DocumentIndex": 1,
+              "Title": "jobRole.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\jobRole.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\jobRole.cs",
+              "ToolTip": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\jobRole.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\jobRole.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T04:00:17.107Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "jobRole.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\jobRole.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\jobRole.cs",
+              "ToolTip": "D:\\Programming\\Visual Studio\\employee_management_system\\EmployeeManagementSystem\\jobRole.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\jobRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T02:08:52.88Z",
+              "EditorCaption": ""
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
             }
           ]
         }

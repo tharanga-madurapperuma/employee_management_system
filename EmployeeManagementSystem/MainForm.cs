@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeManagementSystem;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -56,6 +57,7 @@ namespace EmployeeManagementSystem
                 this.Hide();
             }
         }
+<<<<<<< HEAD
 
         private void dashboard_btn_Click(object sender, EventArgs e)
         {
@@ -90,13 +92,21 @@ namespace EmployeeManagementSystem
             }
 
         }
+=======
+        
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
 
         private void salary_btn_Click(object sender, EventArgs e)
         {
             dashboard1.Visible = false;
             addEmployee1.Visible = false;
             salary1.Visible = true;
+<<<<<<< HEAD
            attendence_Control1.Visible = false;
+=======
+            jobRole1.Visible = false;
+            attendence1.Visible = false;
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
 
             Salary salaryForm = salary1 as Salary;
 
@@ -109,19 +119,79 @@ namespace EmployeeManagementSystem
 
         private void dashboard1_Load(object sender, EventArgs e)
         {
+            dashboard1.Visible = true;
+            addEmployee1.Visible = false;
+            salary1.Visible = false;
+            jobRole1.Visible = false;
+            attendence1.Visible = false;
+        }
+
+        private void salary_btn_Click_1(object sender, EventArgs e)
+        {
+            dashboard1.Visible = false;
+            addEmployee1.Visible = false;
+            salary1.Visible = true;
+            jobRole1.Visible = false;
+            attendence1.Visible = false;
+        }
+
+        private void SalaryDetailsButton_Click(object sender, EventArgs e)
+        {
+            dashboard1.Visible = false;
+            addEmployee1.Visible = false;
+            salary1.Visible = false;
+            jobRole1.Visible = true;
+        }
+
+        private void addEmployee_btn_Click(object sender, EventArgs e)
+        {
+            dashboard1.Visible = false;
+            addEmployee1.Visible = true;
+            salary1.Visible = false;
+            jobRole1.Visible = false;
+            attendence1.Visible = false;
+
+            AddEmployee addEmForm = addEmployee1 as AddEmployee;
+
+            if (addEmForm != null)
+            {
+                addEmForm.RefreshData();
+            }
 
         }
 
+<<<<<<< HEAD
         private void dashboard1_Load_1(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
+=======
+        private void dashboard_btn_Click(object sender, EventArgs e)
+        {
+            dashboard1.Visible = true;
+            addEmployee1.Visible = false;
+            salary1.Visible = false;
+            jobRole1.Visible = false;
+            attendence1.Visible = false;
+
+            Dashboard dashForm = dashboard1 as Dashboard;
+
+            if (dashForm != null)
+            {
+                dashForm.RefreshData();
+            }
+
+        }
+
+        private void siticoneRoundedButton1_Click(object sender, EventArgs e)
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
         {
             dashboard1.Visible = false;
             addEmployee1.Visible = false;
             salary1.Visible = false;
+<<<<<<< HEAD
             attendence_Control1.Visible = true;
 
         }
@@ -154,5 +224,10 @@ namespace EmployeeManagementSystem
         
 =======
 >>>>>>> origin/attendance
+=======
+            jobRole1.Visible = false;
+            attendence1.Visible = true;
+        }
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
     }
 }

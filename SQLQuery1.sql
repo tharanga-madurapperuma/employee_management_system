@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿CREATE TABLE [dbo].[employees] (
     [id]             INT           IDENTITY (1, 1) NOT NULL,
     [employee_id]    VARCHAR (MAX) NOT NULL,
@@ -42,3 +43,6 @@ CREATE TABLE employess
 
 SELECT * FROM employess
 >>>>>>> origin/attendance
+=======
+﻿SELECT * FROM job_roles
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4

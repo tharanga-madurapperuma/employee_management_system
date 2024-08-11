@@ -64,6 +64,7 @@ D:\Programming\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManage
 D:\Programming\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\Employee.A4622930.Up2Date
 D:\Programming\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Guna.UI.dll
 D:\Programming\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\Guna.UI2.dll
+<<<<<<< HEAD
 D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
 D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
 D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
@@ -169,3 +170,59 @@ F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_manageme
 F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_management_system\EmployeeManagementSystem\bin\Debug\employee_log.ldf
 =======
 >>>>>>> origin/attendance
+=======
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Google.Protobuf.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Guna.UI.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Guna.UI2.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Hash.xxHash.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\MySql.Data.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\NuGet.Frameworks.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Buffers.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.IO.Pipelines.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Memory.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Numerics.Vectors.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\ZstdSharp.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Google.Protobuf.pdb
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Google.Protobuf.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Hash.xxHash.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\MySql.Data.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Buffers.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.IO.Pipelines.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Memory.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Numerics.Vectors.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.AddEmployee.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Dashboard.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Form1.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.MainForm.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.RegisterForm.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Salary.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\Employee.A4622930.Up2Date
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\bin\Debug\Siticone.UI.dll
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.jobRole.resources
+D:\Programming\Visual Studio\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.attendence.resources
+>>>>>>> e7738b0b522bfa8911c17f6638a93c37176ce6e4
