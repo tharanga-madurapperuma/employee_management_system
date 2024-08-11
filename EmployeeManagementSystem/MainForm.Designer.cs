@@ -43,8 +43,11 @@ namespace EmployeeManagementSystem
             this.greet_user = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.attendanceBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.employeeDataSet = new EmployeeManagementSystem.employeeDataSet();
+=======
+>>>>>>> origin/attendance
             this.attendence_Control1 = new EmployeeManagementSystem.attendence_Control();
             this.dashboard1 = new EmployeeManagementSystem.Dashboard();
             this.addEmployee1 = new EmployeeManagementSystem.AddEmployee();
@@ -54,8 +57,11 @@ namespace EmployeeManagementSystem
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.attendanceBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataSet)).BeginInit();
+=======
+>>>>>>> origin/attendance
             this.SuspendLayout();
             // 
             // panel1
@@ -77,10 +83,16 @@ namespace EmployeeManagementSystem
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(9, 11);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(242, 21);
+=======
+            this.label2.Location = new System.Drawing.Point(7, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(186, 16);
+>>>>>>> origin/attendance
             this.label2.TabIndex = 1;
             this.label2.Text = "Employee Management System";
             // 
@@ -93,7 +105,11 @@ namespace EmployeeManagementSystem
             this.exit.Location = new System.Drawing.Point(1439, 10);
             this.exit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.exit.Name = "exit";
+<<<<<<< HEAD
             this.exit.Size = new System.Drawing.Size(20, 21);
+=======
+            this.exit.Size = new System.Drawing.Size(15, 16);
+>>>>>>> origin/attendance
             this.exit.TabIndex = 0;
             this.exit.Text = "X";
             this.exit.Click += new System.EventHandler(this.exit_Click);
@@ -129,10 +145,16 @@ namespace EmployeeManagementSystem
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::EmployeeManagementSystem.Properties.Resources.icons8_Salary_male_30px;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(19, 484);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(267, 49);
+=======
+            this.button1.Location = new System.Drawing.Point(14, 393);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 40);
+>>>>>>> origin/attendance
             this.button1.TabIndex = 7;
             this.button1.Text = "ATTENDENCE";
             this.button1.UseVisualStyleBackColor = false;
@@ -236,10 +258,16 @@ namespace EmployeeManagementSystem
             this.greet_user.AutoSize = true;
             this.greet_user.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.greet_user.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.greet_user.Location = new System.Drawing.Point(73, 183);
             this.greet_user.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.greet_user.Name = "greet_user";
             this.greet_user.Size = new System.Drawing.Size(144, 24);
+=======
+            this.greet_user.Location = new System.Drawing.Point(55, 149);
+            this.greet_user.Name = "greet_user";
+            this.greet_user.Size = new System.Drawing.Size(115, 19);
+>>>>>>> origin/attendance
             this.greet_user.TabIndex = 1;
             this.greet_user.Text = "Welcome, User";
             // 
@@ -260,6 +288,7 @@ namespace EmployeeManagementSystem
             this.panel3.Controls.Add(this.addEmployee1);
             this.panel3.Controls.Add(this.salary1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
             this.panel3.Location = new System.Drawing.Point(300, 43);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
@@ -282,6 +311,18 @@ namespace EmployeeManagementSystem
             this.attendence_Control1.Margin = new System.Windows.Forms.Padding(5);
             this.attendence_Control1.Name = "attendence_Control1";
             this.attendence_Control1.Size = new System.Drawing.Size(1167, 695);
+=======
+            this.panel3.Location = new System.Drawing.Point(225, 35);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(875, 565);
+            this.panel3.TabIndex = 2;
+            // 
+            // attendence_Control1
+            // 
+            this.attendence_Control1.Location = new System.Drawing.Point(0, 0);
+            this.attendence_Control1.Name = "attendence_Control1";
+            this.attendence_Control1.Size = new System.Drawing.Size(875, 565);
+>>>>>>> origin/attendance
             this.attendence_Control1.TabIndex = 3;
             this.attendence_Control1.Load += new System.EventHandler(this.attendence_Control1_Load);
             // 
@@ -334,8 +375,11 @@ namespace EmployeeManagementSystem
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.attendanceBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataSet)).EndInit();
+=======
+>>>>>>> origin/attendance
             this.ResumeLayout(false);
 
         }
@@ -359,8 +403,11 @@ namespace EmployeeManagementSystem
         private AddEmployee addEmployee1;
         private System.Windows.Forms.Button button1;
         private attendence_Control attendence_Control1;
+<<<<<<< HEAD
         private employeeDataSet employeeDataSet;
         private System.Windows.Forms.BindingSource attendanceBindingSource;
         private employeeDataSetTableAdapters.attendanceTableAdapter attendanceTableAdapter;
+=======
+>>>>>>> origin/attendance
     }
 }

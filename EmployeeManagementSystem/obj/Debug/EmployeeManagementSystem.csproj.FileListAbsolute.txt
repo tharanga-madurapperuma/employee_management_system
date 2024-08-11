@@ -114,6 +114,7 @@ D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_
 D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
 D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
 D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.attendence_Control.resources
+<<<<<<< HEAD
 F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
 F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
 F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
@@ -166,3 +167,5 @@ F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_manageme
 F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_management_system\EmployeeManagementSystem\obj\Debug\Employee.A4622930.Up2Date
 F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_management_system\EmployeeManagementSystem\bin\Debug\employee.mdf
 F:\Academic\sem 05\Visual_programmi\employee_management_system\employee_management_system\EmployeeManagementSystem\bin\Debug\employee_log.ldf
+=======
+>>>>>>> origin/attendance

@@ -225,6 +225,10 @@ namespace EmployeeManagementSystem
             this.Controls.Add(this.panel1);
             this.Name = "Dashboard";
             this.Size = new System.Drawing.Size(875, 565);
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this.Dashboard_Load);
+>>>>>>> origin/attendance
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();

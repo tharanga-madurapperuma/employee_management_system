@@ -210,6 +210,7 @@
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <None Include="employeeDataSet.xsc">
       <DependentUpon>employeeDataSet.xsd</DependentUpon>
     </None>
@@ -232,6 +233,8 @@
     <None Include="employeeDataSet1.xss">
       <DependentUpon>employeeDataSet1.xsd</DependentUpon>
     </None>
+=======
+>>>>>>> origin/attendance
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

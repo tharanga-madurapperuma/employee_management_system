@@ -16,7 +16,11 @@ namespace EmployeeManagementSystem
     public partial class AddEmployee : UserControl
     {
         SqlConnection connect
+<<<<<<< HEAD
                     = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+=======
+                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+>>>>>>> origin/attendance
 
         public AddEmployee()
         {
@@ -343,10 +347,13 @@ namespace EmployeeManagementSystem
         {
 
         }
+<<<<<<< HEAD
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+=======
+>>>>>>> origin/attendance
     }
 }

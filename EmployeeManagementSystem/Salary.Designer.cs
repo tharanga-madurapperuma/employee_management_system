@@ -127,7 +127,11 @@ namespace EmployeeManagementSystem
             this.label5.Location = new System.Drawing.Point(25, 278);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
+<<<<<<< HEAD
             this.label5.Size = new System.Drawing.Size(61, 21);
+=======
+            this.label5.Size = new System.Drawing.Size(48, 16);
+>>>>>>> origin/attendance
             this.label5.TabIndex = 6;
             this.label5.Text = "Salary:";
             // 
@@ -148,7 +152,11 @@ namespace EmployeeManagementSystem
             this.label4.Location = new System.Drawing.Point(25, 206);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
+<<<<<<< HEAD
             this.label4.Size = new System.Drawing.Size(74, 21);
+=======
+            this.label4.Size = new System.Drawing.Size(56, 16);
+>>>>>>> origin/attendance
             this.label4.TabIndex = 4;
             this.label4.Text = "Position:";
             // 
@@ -169,7 +177,11 @@ namespace EmployeeManagementSystem
             this.label3.Location = new System.Drawing.Point(25, 132);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
+<<<<<<< HEAD
             this.label3.Size = new System.Drawing.Size(90, 21);
+=======
+            this.label3.Size = new System.Drawing.Size(69, 16);
+>>>>>>> origin/attendance
             this.label3.TabIndex = 2;
             this.label3.Text = "Full Name:";
             // 
@@ -190,7 +202,11 @@ namespace EmployeeManagementSystem
             this.label2.Location = new System.Drawing.Point(25, 55);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
+<<<<<<< HEAD
             this.label2.Size = new System.Drawing.Size(111, 21);
+=======
+            this.label2.Size = new System.Drawing.Size(83, 16);
+>>>>>>> origin/attendance
             this.label2.TabIndex = 0;
             this.label2.Text = "Employee ID:";
             // 
@@ -221,6 +237,7 @@ namespace EmployeeManagementSystem
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.EnableHeadersVisualStyles = false;
+<<<<<<< HEAD
             this.dataGridView1.Location = new System.Drawing.Point(27, 79);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
@@ -230,6 +247,26 @@ namespace EmployeeManagementSystem
             this.dataGridView1.Size = new System.Drawing.Size(677, 530);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+=======
+            this.dataGridView1.Location = new System.Drawing.Point(20, 64);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.Size = new System.Drawing.Size(508, 431);
+            this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Employees";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+>>>>>>> origin/attendance
             // 
             // label1
             // 

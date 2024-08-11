@@ -133,13 +133,18 @@ namespace EmployeeManagementSystem
 
         private void attendence_Control1_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
              
+=======
+
+>>>>>>> origin/attendance
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
+<<<<<<< HEAD
 
         private void MainForm_Load_1(object sender, EventArgs e)
         {
@@ -147,5 +152,7 @@ namespace EmployeeManagementSystem
         }
 
         
+=======
+>>>>>>> origin/attendance
     }
 }

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\my drive\\campus\\course\\year 3\\becs 31242 visual programming\\project\\employee_management_system\\employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\my drive\\campus\\course\\year 3\\becs 31242 visual programming\\project\\employee_management_system\\employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\my drive\\campus\\course\\year 3\\becs 31242 visual programming\\project\\employee_management_system\\employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEmployee.cs",
+              "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\AddEmployee.cs",
+              "ToolTip": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAYwJIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:00:38.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddEmployee.cs [Design]",
+              "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\AddEmployee.cs",
+              "ToolTip": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:00:36.388Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserControl1.cs [Design]",
+              "DocumentMoniker": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\UserControl1.cs",
+              "ToolTip": "D:\\My Drive\\Campus\\Course\\Year 3\\BECS 31242 Visual Programming\\Project\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\UserControl1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:17:01.05Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

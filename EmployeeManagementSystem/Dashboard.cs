@@ -15,7 +15,11 @@ namespace EmployeeManagementSystem
     public partial class Dashboard : UserControl
     {
         SqlConnection connect
+<<<<<<< HEAD
                     = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+=======
+                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+>>>>>>> origin/attendance
         public Dashboard()
         {
             InitializeComponent();
@@ -160,5 +164,13 @@ namespace EmployeeManagementSystem
         {
 
         }
+<<<<<<< HEAD
+=======
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> origin/attendance
     }
 }

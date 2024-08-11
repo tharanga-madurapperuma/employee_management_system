@@ -413,7 +413,11 @@ namespace EmployeeManagementSystem
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddEmployee";
+<<<<<<< HEAD
             this.Size = new System.Drawing.Size(1167, 695);
+=======
+            this.Size = new System.Drawing.Size(875, 565);
+>>>>>>> origin/attendance
             this.Load += new System.EventHandler(this.AddEmployee_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
