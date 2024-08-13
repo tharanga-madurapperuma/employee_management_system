@@ -1,78 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\",
+  "WorkspaceRootPath": "D:\\Visual Studios\\employee_management_system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\visual studios\\employee_management_system\\employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Visual Studios\\employee_management_system\\employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\attendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thara\\downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\thara\\downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\employeemanagementsystem\\salarydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\salarydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\visual studios\\employee_management_system\\employeemanagementsystem\\attendence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7DAF6B-9712-48EE-B405-C746F1E3043D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\attendence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,229 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Attendence.Designer.cs",
+              "DocumentMoniker": "D:\\Visual Studios\\employee_management_system\\EmployeeManagementSystem\\Attendence.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Attendence.Designer.cs",
+              "ToolTip": "D:\\Visual Studios\\employee_management_system\\EmployeeManagementSystem\\Attendence.Designer.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Attendence.Designer.cs",
+              "ViewState": "AQIAALEBAAAAAAAAAAAcwMYBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:08:20.289Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\AddEmployee.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs",
-              "ViewState": "AQIAAAYBAAAAAAAAAADwv00BAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Attendence.cs",
+              "DocumentMoniker": "D:\\Visual Studios\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Attendence.cs",
+              "ToolTip": "D:\\Visual Studios\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Attendence.cs",
+              "ViewState": "AQIAAAwBAAAAAAAAAAAqwBsBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:36:57.106Z",
+              "WhenOpened": "2024-08-12T09:46:12.829Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Form1.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Form1.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAwwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:32:07.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\MainForm.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\MainForm.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\MainForm.cs [Design]",
-              "RelativeToolTip": "EmployeeManagementSystem\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:32:33.363Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Salary.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Salary.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Salary.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Salary.cs [Design]",
-              "RelativeToolTip": "EmployeeManagementSystem\\Salary.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:33:31.499Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserControl1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\UserControl1.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs [Design]",
-              "RelativeToolTip": "EmployeeManagementSystem\\UserControl1.cs [Design]",
+              "Title": "Attendence.cs [Design]",
+              "DocumentMoniker": "D:\\Visual Studios\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Attendence.cs",
+              "ToolTip": "D:\\Visual Studios\\employee_management_system\\EmployeeManagementSystem\\Attendence.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\Attendence.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:34:06.694Z",
+              "WhenOpened": "2024-08-09T03:09:51.011Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddEmployee.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\AddEmployee.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\AddEmployee.cs [Design]",
-              "RelativeToolTip": "EmployeeManagementSystem\\AddEmployee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T11:20:49.845Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserControl1.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\UserControl1.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\UserControl1.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\UserControl1.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAAwKkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:34:08.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Program.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:32:59.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Form1.cs [Design]",
-              "RelativeToolTip": "EmployeeManagementSystem\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:32:04.377Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\App.config",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\App.config",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\App.config",
-              "RelativeToolTip": "EmployeeManagementSystem\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-06T09:39:42.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeData.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\EmployeeData.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\EmployeeData.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\EmployeeData.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\EmployeeData.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAAABkAAAB1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:31:27.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\RegisterForm.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\RegisterForm.cs",
-              "ViewState": "AQIAAIgAAAAAAAAAAAAcwI0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:33:05.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\RegisterForm.cs",
-              "ToolTip": "F:\\Academic\\sem 05\\Visual_programmi\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\RegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:33:03.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Salary.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Salary.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Salary.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\Salary.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Salary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:33:33.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SalaryData.cs",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\SalaryData.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\SalaryData.cs",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\EmployeeManagementSystem\\SalaryData.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\SalaryData.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAwwBUAAABzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:33:51.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SQLQuery3.sql",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery3.sql",
-              "RelativeDocumentMoniker": "SQLQuery3.sql",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery3.sql",
-              "RelativeToolTip": "SQLQuery3.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-06T09:53:59.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SQLQuery1.sql",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery1.sql",
-              "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery1.sql",
-              "RelativeToolTip": "SQLQuery1.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-06T09:52:59.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SQLQuery2.sql",
-              "DocumentMoniker": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery2.sql",
-              "RelativeDocumentMoniker": "SQLQuery2.sql",
-              "ToolTip": "C:\\Users\\thara\\Downloads\\employee_management_system\\employee_management_system\\SQLQuery2.sql",
-              "RelativeToolTip": "SQLQuery2.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-06T09:53:35.786Z"
             }
           ]
         }

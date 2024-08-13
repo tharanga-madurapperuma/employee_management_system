@@ -21,13 +21,30 @@ namespace EmployeeManagementSystem
 
 
         SqlConnection connect
+<<<<<<< HEAD
                            = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+=======
+<<<<<<< HEAD
+                           = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+=======
+                           = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
         private void attendence_Control_Load(object sender, EventArgs e)
         {
             dailyPanel.Visible = true;
             monthPanel.Visible = false;
+<<<<<<< HEAD
             LoaddataGridView2();
 
+=======
+<<<<<<< HEAD
+            LoaddataGridView2();
+
+=======
+            
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
         }
 
         private void ShowPanel(Panel panelToShow)
@@ -79,7 +96,15 @@ namespace EmployeeManagementSystem
                     {
                         connect.Open();
 
+<<<<<<< HEAD
                         
+=======
+<<<<<<< HEAD
+                        
+=======
+                        // Check if the employee record already exists for the given date
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
                         string selectQuery = "SELECT COUNT(*) FROM attendance WHERE employee_id = @employeeId AND attendance_date = @date";
                         using (SqlCommand checkRecord = new SqlCommand(selectQuery, connect))
                         {
@@ -97,7 +122,15 @@ namespace EmployeeManagementSystem
                             {
 
 
+<<<<<<< HEAD
                                 
+=======
+<<<<<<< HEAD
+                                
+=======
+                                // Insert the new record into the database
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
                                 string insertQuery = "INSERT INTO attendance (employee_id, attendance_date, time_in, time_out) VALUES (@employeeId, @date, @timeIn, @timeOut)";
                                 using (SqlCommand cmd = new SqlCommand(insertQuery, connect))
                                 {
@@ -110,8 +143,16 @@ namespace EmployeeManagementSystem
 
                                     MessageBox.Show("Record added successfully!",
                                         "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+<<<<<<< HEAD
                                         dataGridView2.Update();
                                         dataGridView2.Refresh();
+=======
+<<<<<<< HEAD
+                                        dataGridView2.Update();
+                                        dataGridView2.Refresh();
+=======
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
                                 }
                             }
                         }
@@ -124,7 +165,14 @@ namespace EmployeeManagementSystem
                     {
                         connect.Close();
                     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
                 }
             }
             
@@ -199,7 +247,15 @@ namespace EmployeeManagementSystem
             INSERT INTO work_hours (employee_id, month, total_work_hours)
             VALUES (@employeeId, @date, @totalWorkHours);
         END;";
+<<<<<<< HEAD
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+=======
+<<<<<<< HEAD
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+=======
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
 
 
             try
@@ -280,7 +336,15 @@ namespace EmployeeManagementSystem
 
         private void SearchWorkHours(string employeeId, int year, int month)
         {
+<<<<<<< HEAD
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+=======
+<<<<<<< HEAD
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+=======
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
 
             string query = @"
         SELECT 
@@ -310,12 +374,22 @@ namespace EmployeeManagementSystem
                             if (reader.Read())
                             {
                                 decimal totalWorkHours = reader.IsDBNull(0) ? 0 : reader.GetDecimal(0);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
                                 decimal totalOT = 0;
 
                                 if (totalWorkHours > 320)
                                 {
                                     totalOT = totalWorkHours - 320;
                                 }
+<<<<<<< HEAD
+=======
+=======
+                                decimal totalOT = reader.IsDBNull(1) ? 0 : reader.GetDecimal(1);
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
 
                                 workHours.Text = totalWorkHours.ToString();
                                 OT.Text = totalOT.ToString();
@@ -339,6 +413,10 @@ namespace EmployeeManagementSystem
         {
 
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -433,3 +511,10 @@ namespace EmployeeManagementSystem
     }
 }
 
+<<<<<<< HEAD
+=======
+=======
+    }
+}
+>>>>>>> origin/attendance
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137

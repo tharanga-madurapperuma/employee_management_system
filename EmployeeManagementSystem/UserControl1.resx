@@ -123,6 +123,10 @@
   <metadata name="mySqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
   <metadata name="attendanceBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>378, 17</value>
   </metadata>
@@ -138,7 +142,14 @@
   <metadata name="attendanceTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>608, 17</value>
   </metadata>
+<<<<<<< HEAD
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>99</value>
+=======
+=======
+>>>>>>> origin/attendance
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+>>>>>>> 232d44629d133fafd2ddd6e4c54399f4d242f137
   </metadata>
 </root>

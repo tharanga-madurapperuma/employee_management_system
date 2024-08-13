@@ -79,6 +79,9 @@
     <Reference Include="NuGet.Frameworks, Version=6.10.1.5, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\NuGet.Frameworks.6.10.1\lib\net472\NuGet.Frameworks.dll</HintPath>
     </Reference>
+    <Reference Include="Siticone.UI">
+      <HintPath>C:\Users\thara\Downloads\Siticone.UI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -129,6 +132,12 @@
     <Compile Include="AddEmployee.Designer.cs">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Attendence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Attendence.Designer.cs">
+      <DependentUpon>Attendence.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -141,16 +150,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>employeeDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="employeeDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>employeeDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jobRole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="jobRole.Designer.cs">
+      <DependentUpon>jobRole.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -173,20 +183,20 @@
       <DependentUpon>Salary.cs</DependentUpon>
     </Compile>
     <Compile Include="SalaryData.cs" />
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AddEmployee.resx">
       <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendence.resx">
+      <DependentUpon>Attendence.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jobRole.resx">
+      <DependentUpon>jobRole.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -207,9 +217,6 @@
     <EmbeddedResource Include="Salary.resx">
       <DependentUpon>Salary.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="employeeDataSet.xsc">
       <DependentUpon>employeeDataSet.xsd</DependentUpon>
     </None>
@@ -220,17 +227,6 @@
     </None>
     <None Include="employeeDataSet.xss">
       <DependentUpon>employeeDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="employeeDataSet1.xsc">
-      <DependentUpon>employeeDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="employeeDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>employeeDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="employeeDataSet1.xss">
-      <DependentUpon>employeeDataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
