@@ -15,7 +15,7 @@ namespace EmployeeManagementSystem
     public partial class Salary : UserControl
     {
         SqlConnection connect
-                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+                    = new SqlConnection(dataSource.dataString);
 
         public Salary()
         {
@@ -139,6 +139,16 @@ namespace EmployeeManagementSystem
         private void salary_clearBtn_Click(object sender, EventArgs e)
         {
             clearFields();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Salary_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

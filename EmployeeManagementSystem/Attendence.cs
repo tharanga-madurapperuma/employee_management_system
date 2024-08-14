@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Google.Protobuf.WellKnownTypes;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,7 +22,7 @@ namespace EmployeeManagementSystem
 
 
         SqlConnection connect
-            = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+            = new SqlConnection(dataSource.dataString);
 
         private void attendence_Control_Load(object sender, EventArgs e)
         {
@@ -57,6 +58,17 @@ namespace EmployeeManagementSystem
 
         private void button3_Click(object sender, EventArgs e)
         {
+            TimeSpan timeIn = pickTimeIn.Value.TimeOfDay;
+            TimeSpan timeOut = picktimeOut.Value.TimeOfDay;
+
+            // Calculate total working hours
+            TimeSpan totalHours = timeOut - timeIn;
+
+            // Calculate OT hours (assuming default working hours are 8 hours)
+            TimeSpan otHours = totalHours > TimeSpan.FromHours(8) ? totalHours - TimeSpan.FromHours(8) : TimeSpan.Zero;
+
+            decimal ot = (decimal)otHours.TotalHours;
+
             if (empID.Text == "")
             {
                 MessageBox.Show("Please enter Employee ID", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -85,16 +97,15 @@ namespace EmployeeManagementSystem
                             }
                             else
                             {
-
-
                                 // Insert the new record into the database
-                                string insertQuery = "INSERT INTO attendance (employee_id, attendance_date, time_in, time_out) VALUES (@employeeId, @date, @timeIn, @timeOut)";
+                                string insertQuery = "INSERT INTO attendance (employee_id, attendance_date, time_in, time_out, ot_hours) VALUES (@employeeId, @date, @timeIn, @timeOut, @ot)";
                                 using (SqlCommand cmd = new SqlCommand(insertQuery, connect))
                                 {
                                     cmd.Parameters.AddWithValue("@employeeId", empID.Text.Trim());
                                     cmd.Parameters.AddWithValue("@date", pickDate.Value);
                                     cmd.Parameters.AddWithValue("@timeIn", pickTimeIn.Value);
                                     cmd.Parameters.AddWithValue("@timeOut", picktimeOut.Value);
+                                    cmd.Parameters.AddWithValue("@ot", ot); 
 
                                     cmd.ExecuteNonQuery();
 
@@ -116,10 +127,8 @@ namespace EmployeeManagementSystem
                     }
                 }
             }
-
-
-
         }
+
 
 
 
@@ -164,32 +173,34 @@ namespace EmployeeManagementSystem
             DATEPART(MONTH, attendance_date) AS month
         FROM attendance;";
 
-            string selectWorkHoursQuery = @"
+            string selectWorkHoursAndOtQuery = @"
         SELECT 
-            SUM(DATEDIFF(MINUTE, time_in, time_out)) / 60.0 AS total_work_hours
+            SUM(DATEDIFF(MINUTE, time_in, time_out)) / 60.0 AS total_work_hours,
+            SUM(ot_hours) AS total_ot_hours
         FROM 
             attendance
         WHERE 
             employee_id = @employeeId
             AND DATEPART(YEAR, attendance_date) = @year
-            AND DATEPART(MONTH, attendance_date) = @month
+            AND DATEPART(MONTH, attendance_date) = @month   
         GROUP BY 
             employee_id;";
 
             string updateOrInsertQuery = @"
-        IF EXISTS (SELECT 1 FROM work_hours WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month)
-        BEGIN
-            UPDATE work_hours
-            SET total_work_hours = @totalWorkHours
-            WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month;
-        END
-        ELSE
-        BEGIN
-            INSERT INTO work_hours (employee_id, month, total_work_hours)
-            VALUES (@employeeId, @date, @totalWorkHours);
-        END;";
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+    IF EXISTS (SELECT 1 FROM work_hours WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month)
+    BEGIN
+        UPDATE work_hours
+        SET total_work_hours = @totalWorkHours,
+            total_ot = @totalOtHours
+        WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month;
+    END
+    ELSE
+    BEGIN
+        INSERT INTO work_hours (employee_id, month, total_work_hours, total_ot)
+        VALUES (@employeeId, @date, @totalWorkHours, @totalOtHours);
+    END;";
 
+            string connectionString = dataSource.dataString;
 
             try
             {
@@ -213,24 +224,25 @@ namespace EmployeeManagementSystem
 
                         reader.Close();
 
-                        // Loop through each employee and month combination to update work hours
+                        // Loop through each employee and month combination to update work hours and OT hours
                         foreach (var employeeMonth in employeeMonths)
                         {
                             string employeeId = employeeMonth.Item1;
                             int year = employeeMonth.Item2;
                             int month = employeeMonth.Item3;
 
-                            using (SqlCommand selectWorkHoursCmd = new SqlCommand(selectWorkHoursQuery, connection))
+                            using (SqlCommand selectWorkHoursAndOtCmd = new SqlCommand(selectWorkHoursAndOtQuery, connection))
                             {
-                                selectWorkHoursCmd.Parameters.AddWithValue("@employeeId", employeeId);
-                                selectWorkHoursCmd.Parameters.AddWithValue("@year", year);
-                                selectWorkHoursCmd.Parameters.AddWithValue("@month", month);
+                                selectWorkHoursAndOtCmd.Parameters.AddWithValue("@employeeId", employeeId);
+                                selectWorkHoursAndOtCmd.Parameters.AddWithValue("@year", year);
+                                selectWorkHoursAndOtCmd.Parameters.AddWithValue("@month", month);
 
-                                using (SqlDataReader workHoursReader = selectWorkHoursCmd.ExecuteReader())
+                                using (SqlDataReader workHoursReader = selectWorkHoursAndOtCmd.ExecuteReader())
                                 {
                                     if (workHoursReader.Read())
                                     {
                                         double totalWorkHours = workHoursReader.IsDBNull(0) ? 0.0 : Convert.ToDouble(workHoursReader.GetDecimal(0));
+                                        double totalOtHours = workHoursReader.IsDBNull(1) ? 0.0 : Convert.ToDouble(workHoursReader.GetDecimal(1));
                                         DateTime monthDate = new DateTime(year, month, 1);
 
                                         workHoursReader.Close(); // Close the reader before executing another command
@@ -241,6 +253,7 @@ namespace EmployeeManagementSystem
                                             updateOrInsertCmd.Parameters.AddWithValue("@year", year);
                                             updateOrInsertCmd.Parameters.AddWithValue("@month", month);
                                             updateOrInsertCmd.Parameters.AddWithValue("@totalWorkHours", totalWorkHours);
+                                            updateOrInsertCmd.Parameters.AddWithValue("@totalOtHours", totalOtHours); // Add total OT hours
                                             updateOrInsertCmd.Parameters.AddWithValue("@date", monthDate);
 
                                             updateOrInsertCmd.ExecuteNonQuery();
@@ -255,7 +268,7 @@ namespace EmployeeManagementSystem
                         }
                     }
 
-                    MessageBox.Show("Work hours updated successfully for all employees!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Work hours and OT hours updated successfully for all employees!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
@@ -267,9 +280,10 @@ namespace EmployeeManagementSystem
 
 
 
+
         private void SearchWorkHours(string employeeId, int year, int month)
         {
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+            string connectionString = dataSource.dataString;
 
             string query = @"
                         SELECT 
@@ -427,7 +441,7 @@ namespace EmployeeManagementSystem
                                                 VALUES (@employeeId, @leaveMonth, @totalLeaveDays);
                                             END;";
 
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+            string connectionString = dataSource.dataString;
 
             try
             {
@@ -524,7 +538,7 @@ namespace EmployeeManagementSystem
 
         private void SearchLeaveDays(string employeeId, int year, int month)
         {
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30";
+            string connectionString = dataSource.dataString;
 
             string query = @"
                             SELECT 
@@ -593,5 +607,19 @@ namespace EmployeeManagementSystem
             }
         }
 
+        private void siticoneDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dailyPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void sqlConnection1_InfoMessage(object sender, SqlInfoMessageEventArgs e)
+        {
+
+        }
     }
 }

@@ -15,7 +15,7 @@ namespace EmployeeManagementSystem
     public partial class Dashboard : UserControl
     {
         SqlConnection connect
-                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+                    = new SqlConnection(dataSource.dataString);
         public Dashboard()
         {
             InitializeComponent();
@@ -152,6 +152,16 @@ namespace EmployeeManagementSystem
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
         {
 
         }

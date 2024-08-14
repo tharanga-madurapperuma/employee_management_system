@@ -15,7 +15,7 @@ namespace EmployeeManagementSystem
     public partial class RegisterForm : Form
     {
         SqlConnection connect
-                           = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+                           = new SqlConnection(dataSource.dataString);
         public RegisterForm()
         {
             InitializeComponent();

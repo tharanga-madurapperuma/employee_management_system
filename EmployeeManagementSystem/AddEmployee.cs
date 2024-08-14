@@ -16,7 +16,7 @@ namespace EmployeeManagementSystem
     public partial class AddEmployee : UserControl
     {
         SqlConnection connect
-                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\thara\OneDrive\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+                    = new SqlConnection(dataSource.dataString);
 
         public AddEmployee()
         {
@@ -85,7 +85,7 @@ namespace EmployeeManagementSystem
                                     "VALUES(@employeeID, @fullName, @gender, @contactNum" +
                                     ", @position, @image, @salary, @insertDate, @status)";
 
-                                string path = Path.Combine(@"D:\Programming\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManagementSystem\EmployeeManagementSystem\Directory\"
+                                string path = Path.Combine(@"D:\Programmig\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManagementSystem\EmployeeManagementSystem\Directory\"
                                     + addEmployee_id.Text.Trim() + ".jpg");
 
                                 string directoryPath = Path.GetDirectoryName(path);
@@ -327,6 +327,16 @@ namespace EmployeeManagementSystem
                 }
 
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void AddEmployee_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

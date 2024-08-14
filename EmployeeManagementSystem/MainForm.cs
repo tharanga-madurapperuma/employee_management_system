@@ -122,5 +122,10 @@ namespace EmployeeManagementSystem
             jobRole1.Visible = false;
             attendence1.Visible = true;
         }
+
+        private void attendence1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
