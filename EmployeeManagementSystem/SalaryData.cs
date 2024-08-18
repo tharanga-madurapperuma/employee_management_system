@@ -19,7 +19,7 @@ namespace EmployeeManagementSystem
         public int Salary { set; get; } // 5
 
         SqlConnection connect
-                            = new SqlConnection(dataSource.dataString);
+                    = new SqlConnection(dataSource.dataString);
         public List<SalaryData> salaryEmployeeListData()
         {
             List<SalaryData> listdata = new List<SalaryData>();

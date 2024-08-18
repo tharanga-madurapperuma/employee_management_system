@@ -13,9 +13,11 @@ using System.Data.SqlClient;
 namespace EmployeeManagementSystem
 {
     public partial class RegisterForm : Form
+
     {
         SqlConnection connect
-                           = new SqlConnection(dataSource.dataString);
+            = new SqlConnection(dataSource.dataString);
+
         public RegisterForm()
         {
             InitializeComponent();
@@ -41,7 +43,9 @@ namespace EmployeeManagementSystem
         private void signup_btn_Click(object sender, EventArgs e)
         {
             if(signup_username.Text == ""
-                || signup_password.Text == "")
+                || signup_password.Text == ""
+                || signup_firstName.Text == ""
+                || signup_lastName.Text == "")
             {
                 MessageBox.Show("Please fill all blank fields"
                     , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -71,14 +75,16 @@ namespace EmployeeManagementSystem
                                 DateTime today = DateTime.Today;
 
                                 string insertData = "INSERT INTO users " +
-                                    "(username, password, date_register) " +
-                                    "VALUES(@username, @password, @dateReg)";
+                                    "(username, password, date_register, firstName, lastName) " +
+                                    "VALUES(@username, @password, @dateReg, @firstName, @lastName)";
 
                                 using (SqlCommand cmd = new SqlCommand(insertData, connect))
                                 {
                                     cmd.Parameters.AddWithValue("@username", signup_username.Text.Trim());
                                     cmd.Parameters.AddWithValue("@password", signup_password.Text.Trim());
                                     cmd.Parameters.AddWithValue("@dateReg", today);
+                                    cmd.Parameters.AddWithValue("@firstName", signup_firstName.Text.Trim());
+                                    cmd.Parameters.AddWithValue("@lastName", signup_lastName.Text.Trim());
 
                                     cmd.ExecuteNonQuery();
 

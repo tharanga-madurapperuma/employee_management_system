@@ -13,9 +13,22 @@ namespace EmployeeManagementSystem
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        string firstName;
+        public MainForm(string firstName)
         {
             InitializeComponent();
+
+            this.firstName = firstName;
+
+            // If the firstName is null or empty, show "Guest"
+            if (string.IsNullOrWhiteSpace(firstName))
+            {
+                userFirstName.Text = "Guest";
+            }
+            else
+            {
+                userFirstName.Text = firstName;
+            }
         }
 
         private void exit_Click(object sender, EventArgs e)
@@ -77,6 +90,7 @@ namespace EmployeeManagementSystem
             dashboard1.Visible = false;
             addEmployee1.Visible = false;
             salary1.Visible = false;
+            attendence1.Visible = false;
             jobRole1.Visible = true;
         }
 
@@ -123,9 +137,17 @@ namespace EmployeeManagementSystem
             attendence1.Visible = true;
         }
 
-        private void attendence1_Load(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
+            DialogResult check = MessageBox.Show("Are you sure you want to logout?"
+                , "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
+            if (check == DialogResult.Yes)
+            {
+                Form1 loginForm = new Form1();
+                loginForm.Show();
+                this.Hide();
+            }
         }
     }
 }

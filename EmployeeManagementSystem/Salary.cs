@@ -16,7 +16,6 @@ namespace EmployeeManagementSystem
     {
         SqlConnection connect
                     = new SqlConnection(dataSource.dataString);
-
         public Salary()
         {
             InitializeComponent();
@@ -52,76 +51,12 @@ namespace EmployeeManagementSystem
             dataGridView1.DataSource = listData;
         }
 
-        private void salary_updateBtn_Click(object sender, EventArgs e)
-        {
-            if(salary_employeeID.Text == ""
-                || salary_name.Text == ""
-                || salary_position.Text == ""
-                || salary_salary.Text == "")
-            {
-                MessageBox.Show("Please fill all blank fields", "Error Message"
-                    , MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                DialogResult check = MessageBox.Show("Are you sure you want to UPDATE Employee ID: " 
-                    + salary_employeeID.Text.Trim() + "?", "Confirmation Message"
-                    , MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                if(check == DialogResult.Yes)
-                {
-                    if(connect.State == ConnectionState.Closed)
-                    {
-                        try
-                        {
-                            connect.Open();
-                            DateTime today = DateTime.Today;
-
-                            string updateData = "UPDATE employees SET salary = @salary" +
-                                ", update_date = @updateData WHERE employee_id = @employeeID";
-
-                            using(SqlCommand cmd = new SqlCommand(updateData, connect))
-                            {
-                                cmd.Parameters.AddWithValue("@salary", salary_salary.Text.Trim());
-                                cmd.Parameters.AddWithValue("@updateData", today);
-                                cmd.Parameters.AddWithValue("@employeeID", salary_employeeID.Text.Trim());
-
-                                cmd.ExecuteNonQuery();
-
-                                displayEmployees();
-
-                                MessageBox.Show("Updated successfully!"
-                                    , "Information Message", MessageBoxButtons.OK
-                                    , MessageBoxIcon.Information);
-
-                                clearFields();
-
-                            }
-                        }catch(Exception ex)
-                        {
-                            MessageBox.Show("Error: " + ex, "Error Message"
-                    , MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                        finally
-                        {
-                            connect.Close();
-                        }
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Cancelled", "Information Message"
-                    , MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-            }
-        }
-
         public void clearFields()
         {
             salary_employeeID.Text = "";
             salary_name.Text = "";
             salary_position.Text = "";
-            salary_salary.Text = "";
+            salary_gender.Text = "";
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -132,6 +67,7 @@ namespace EmployeeManagementSystem
                 salary_employeeID.Text = row.Cells[0].Value.ToString();
                 salary_name.Text = row.Cells[1].Value.ToString();
                 salary_position.Text = row.Cells[4].Value.ToString();
+                salary_gender.Text = row.Cells[2].Value.ToString();
                 salary_salary.Text = row.Cells[5].Value.ToString();
             }
         }
@@ -141,14 +77,5 @@ namespace EmployeeManagementSystem
             clearFields();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Salary_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

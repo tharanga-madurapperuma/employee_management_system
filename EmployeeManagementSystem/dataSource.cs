@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagementSystem
 {
-    internal class dataSource
+    public static class dataSource
     {
-        public static string dataString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\MyPC\\Desktop\\employee.mdf;Integrated Security=True;Connect Timeout=30"; 
+        public static String dataString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\Visual Studios\\employee_management_system\\EmployeeManagementSystem\\employee.mdf\";Integrated Security=True;Connect Timeout=30;Encrypt=False";
+        public static int netSalary;
     }
 }

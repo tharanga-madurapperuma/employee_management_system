@@ -14,8 +14,10 @@ namespace EmployeeManagementSystem
 {
     public partial class Form1 : Form
     {
+        String firstName;
+
         SqlConnection connect
-                    = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MyPC\Desktop\employee.mdf;Integrated Security=True;Connect Timeout=30");
+            = new SqlConnection(dataSource.dataString);
         public Form1()
         {
             InitializeComponent();
@@ -78,12 +80,28 @@ namespace EmployeeManagementSystem
 
                             if(table.Rows.Count >= 1)
                             {
-                                MessageBox.Show("Login successfully!"
-                                    , "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                string getName = "SELECT firstName FROM users WHERE username = @username";
 
-                                MainForm mForm = new MainForm();
-                                mForm.Show();
-                                this.Hide();
+                                using (SqlCommand cmd2 = new SqlCommand(getName, connect))
+                                {
+                                    cmd2.Parameters.AddWithValue("@username", login_username.Text.Trim());
+
+                                    var result = cmd2.ExecuteScalar();
+
+                                    if (result != null)
+                                    {
+                                        string firstName = (string)result;
+                                        MessageBox.Show("Login successfully! Welcome, " + firstName, "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                        MainForm mForm = new MainForm(firstName);
+                                        mForm.Show();
+                                        this.Hide();
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("No matching user found.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    }
+                                }
                             }
                             else
                             {
@@ -104,16 +122,6 @@ namespace EmployeeManagementSystem
                 }
                 
             }
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

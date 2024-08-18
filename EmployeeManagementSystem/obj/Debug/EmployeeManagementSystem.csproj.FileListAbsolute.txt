@@ -174,56 +174,7 @@ D:\Visual Studios\employee_management_system\EmployeeManagementSystem\bin\Debug\
 D:\Visual Studios\employee_management_system\EmployeeManagementSystem\obj\Debug\Employee.A4622930.Up2Date
 D:\Visual Studios\employee_management_system\EmployeeManagementSystem\bin\Debug\employee.mdf
 D:\Visual Studios\employee_management_system\EmployeeManagementSystem\bin\Debug\employee_log.ldf
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\employee.mdf
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\employee_log.ldf
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\BouncyCastle.Cryptography.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\Google.Protobuf.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.Streams.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Hash.xxHash.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\MySql.Data.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\NuGet.Frameworks.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Buffers.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.IO.Pipelines.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Memory.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Numerics.Vectors.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\ZstdSharp.dll
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\BouncyCastle.Cryptography.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\Google.Protobuf.pdb
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\Google.Protobuf.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Compression.LZ4.Streams.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\K4os.Hash.xxHash.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\MySql.Data.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Buffers.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.IO.Pipelines.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Memory.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Numerics.Vectors.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.AddEmployee.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Attendence.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Dashboard.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Form1.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.jobRole.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.MainForm.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.RegisterForm.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Salary.resources
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\Employee.A4622930.Up2Date
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
-D:\My Drive\Campus\Course\Year 3\BECS 31242 Visual Programming\Project\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+D:\Visual Studios\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe.manifest
+D:\Visual Studios\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.manifest
+D:\Visual Studios\employee_management_system\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.application
+D:\Visual Studios\employee_management_system\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.application

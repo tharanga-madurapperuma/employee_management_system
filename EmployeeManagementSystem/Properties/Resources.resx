@@ -139,10 +139,13 @@
   <data name="icons8_group_background_selected_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\icons8_group_background_selected_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pexels-jane-doan-1024248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-jane-doan-1024248.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_group_background_selected_filled_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\icons8_group_background_selected_filled_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pexels-jane-doan-1024248" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pexels-jane-doan-1024248.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="employeeImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\employeeImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

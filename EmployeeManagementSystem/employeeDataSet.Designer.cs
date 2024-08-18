@@ -289,6 +289,8 @@ namespace EmployeeManagementSystem {
             
             private global::System.Data.DataColumn columntime_out;
             
+            private global::System.Data.DataColumn columnot_hours;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public attendanceDataTable() {
@@ -364,6 +366,14 @@ namespace EmployeeManagementSystem {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn ot_hoursColumn {
+                get {
+                    return this.columnot_hours;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -399,14 +409,15 @@ namespace EmployeeManagementSystem {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public attendanceRow AddattendanceRow(string employee_id, System.DateTime attendance_date, System.TimeSpan time_in, System.TimeSpan time_out) {
+            public attendanceRow AddattendanceRow(string employee_id, System.DateTime attendance_date, System.TimeSpan time_in, System.TimeSpan time_out, decimal ot_hours) {
                 attendanceRow rowattendanceRow = ((attendanceRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
                         employee_id,
                         attendance_date,
                         time_in,
-                        time_out};
+                        time_out,
+                        ot_hours};
                 rowattendanceRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowattendanceRow);
                 return rowattendanceRow;
@@ -441,6 +452,7 @@ namespace EmployeeManagementSystem {
                 this.columnattendance_date = base.Columns["attendance_date"];
                 this.columntime_in = base.Columns["time_in"];
                 this.columntime_out = base.Columns["time_out"];
+                this.columnot_hours = base.Columns["ot_hours"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -456,6 +468,8 @@ namespace EmployeeManagementSystem {
                 base.Columns.Add(this.columntime_in);
                 this.columntime_out = new global::System.Data.DataColumn("time_out", typeof(global::System.TimeSpan), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columntime_out);
+                this.columnot_hours = new global::System.Data.DataColumn("ot_hours", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnot_hours);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnattendance_id}, true));
                 this.columnattendance_id.AutoIncrement = true;
@@ -660,6 +674,34 @@ namespace EmployeeManagementSystem {
                 set {
                     this[this.tableattendance.time_outColumn] = value;
                 }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public decimal ot_hours {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableattendance.ot_hoursColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ot_hours\' in table \'attendance\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableattendance.ot_hoursColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isot_hoursNull() {
+                return this.IsNull(this.tableattendance.ot_hoursColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setot_hoursNull() {
+                this[this.tableattendance.ot_hoursColumn] = global::System.Convert.DBNull;
             }
         }
         

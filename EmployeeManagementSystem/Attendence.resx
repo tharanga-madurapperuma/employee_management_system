@@ -123,57 +123,48 @@
   <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
-  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
-  </metadata>
   <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <metadata name="sqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>152, 14</value>
+    <value>190, 17</value>
   </metadata>
+  <data name="sqlConnection1.ConnectionString" xml:space="preserve">
+    <value>Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="D:\Visual Studios\employee_management_system\EmployeeManagementSystem\employee.mdf";Integrated Security=True;Pooling=False;Connect Timeout=30;Encrypt=False</value>
+  </data>
   <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
-  </metadata>
-  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
   </metadata>
   <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
-    <value>INSERT INTO [attendance] ([employee_id], [attendance_date], [time_in], [time_out]) VALUES (@employee_id, @attendance_date, @time_in, @time_out);
-SELECT attendance_id, employee_id, attendance_date, time_in, time_out FROM attendance WHERE (attendance_id = SCOPE_IDENTITY())</value>
+    <value>INSERT INTO [attendance] ([employee_id], [attendance_date], [time_in], [time_out], [ot_hours]) VALUES (@employee_id, @attendance_date, @time_in, @time_out, @ot_hours);
+SELECT attendance_id, employee_id, attendance_date, time_in, time_out, ot_hours FROM attendance WHERE (attendance_id = SCOPE_IDENTITY())</value>
   </data>
   <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
-  </metadata>
-  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
   </metadata>
   <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
-    <value>UPDATE [attendance] SET [employee_id] = @employee_id, [attendance_date] = @attendance_date, [time_in] = @time_in, [time_out] = @time_out WHERE (([attendance_id] = @Original_attendance_id) AND ([attendance_date] = @Original_attendance_date) AND ([time_in] = @Original_time_in) AND ([time_out] = @Original_time_out));
-SELECT attendance_id, employee_id, attendance_date, time_in, time_out FROM attendance WHERE (attendance_id = @attendance_id)</value>
+    <value>UPDATE [attendance] SET [employee_id] = @employee_id, [attendance_date] = @attendance_date, [time_in] = @time_in, [time_out] = @time_out, [ot_hours] = @ot_hours WHERE (([attendance_id] = @Original_attendance_id) AND ([attendance_date] = @Original_attendance_date) AND ([time_in] = @Original_time_in) AND ([time_out] = @Original_time_out) AND ((@IsNull_ot_hours = 1 AND [ot_hours] IS NULL) OR ([ot_hours] = @Original_ot_hours)));
+SELECT attendance_id, employee_id, attendance_date, time_in, time_out, ot_hours FROM attendance WHERE (attendance_id = @attendance_id)</value>
   </data>
   <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
-  </metadata>
-  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
   </metadata>
   <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
-    <value>DELETE FROM [attendance] WHERE (([attendance_id] = @Original_attendance_id) AND ([attendance_date] = @Original_attendance_date) AND ([time_in] = @Original_time_in) AND ([time_out] = @Original_time_out))</value>
+    <value>DELETE FROM [attendance] WHERE (([attendance_id] = @Original_attendance_id) AND ([attendance_date] = @Original_attendance_date) AND ([time_in] = @Original_time_in) AND ([time_out] = @Original_time_out) AND ((@IsNull_ot_hours = 1 AND [ot_hours] IS NULL) OR ([ot_hours] = @Original_ot_hours)))</value>
   </data>
   <metadata name="sqlDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>14, 14</value>
+    <value>17, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>125</value>
+    <value>49</value>
   </metadata>
 </root>

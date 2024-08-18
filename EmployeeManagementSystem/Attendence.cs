@@ -1,5 +1,4 @@
-﻿using Google.Protobuf.WellKnownTypes;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -97,22 +96,23 @@ namespace EmployeeManagementSystem
                             }
                             else
                             {
+
+
                                 // Insert the new record into the database
-                                string insertQuery = "INSERT INTO attendance (employee_id, attendance_date, time_in, time_out, ot_hours) VALUES (@employeeId, @date, @timeIn, @timeOut, @ot)";
+                                string insertQuery = "INSERT INTO attendance (employee_id, attendance_date, time_in, time_out, ot_hours) VALUES (@employeeId, @date, @timeIn, @timeOut)";
                                 using (SqlCommand cmd = new SqlCommand(insertQuery, connect))
                                 {
                                     cmd.Parameters.AddWithValue("@employeeId", empID.Text.Trim());
                                     cmd.Parameters.AddWithValue("@date", pickDate.Value);
                                     cmd.Parameters.AddWithValue("@timeIn", pickTimeIn.Value);
                                     cmd.Parameters.AddWithValue("@timeOut", picktimeOut.Value);
-                                    cmd.Parameters.AddWithValue("@ot", ot); 
+                                    cmd.Parameters.AddWithValue("@ot", ot);
 
                                     cmd.ExecuteNonQuery();
 
                                     MessageBox.Show("Record added successfully!",
                                         "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                    employeeDataSet1.Clear();
-                                    sqlDataAdapter1.Fill(employeeDataSet1);
+                       
                                 }
                             }
                         }
@@ -127,8 +127,10 @@ namespace EmployeeManagementSystem
                     }
                 }
             }
-        }
 
+
+
+        }
 
 
 
@@ -173,32 +175,30 @@ namespace EmployeeManagementSystem
             DATEPART(MONTH, attendance_date) AS month
         FROM attendance;";
 
-            string selectWorkHoursAndOtQuery = @"
+            string selectWorkHoursQuery = @"
         SELECT 
-            SUM(DATEDIFF(MINUTE, time_in, time_out)) / 60.0 AS total_work_hours,
-            SUM(ot_hours) AS total_ot_hours
+            SUM(DATEDIFF(MINUTE, time_in, time_out)) / 60.0 AS total_work_hours
         FROM 
             attendance
         WHERE 
             employee_id = @employeeId
             AND DATEPART(YEAR, attendance_date) = @year
-            AND DATEPART(MONTH, attendance_date) = @month   
+            AND DATEPART(MONTH, attendance_date) = @month
         GROUP BY 
             employee_id;";
 
             string updateOrInsertQuery = @"
-    IF EXISTS (SELECT 1 FROM work_hours WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month)
-    BEGIN
-        UPDATE work_hours
-        SET total_work_hours = @totalWorkHours,
-            total_ot = @totalOtHours
-        WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month;
-    END
-    ELSE
-    BEGIN
-        INSERT INTO work_hours (employee_id, month, total_work_hours, total_ot)
-        VALUES (@employeeId, @date, @totalWorkHours, @totalOtHours);
-    END;";
+        IF EXISTS (SELECT 1 FROM work_hours WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month)
+        BEGIN
+            UPDATE work_hours
+            SET total_work_hours = @totalWorkHours
+            WHERE employee_id = @employeeId AND DATEPART(YEAR, month) = @year AND DATEPART(MONTH, month) = @month;
+        END
+        ELSE
+        BEGIN
+            INSERT INTO work_hours (employee_id, month, total_work_hours)
+            VALUES (@employeeId, @date, @totalWorkHours);
+        END;";
 
             string connectionString = dataSource.dataString;
 
@@ -224,25 +224,26 @@ namespace EmployeeManagementSystem
 
                         reader.Close();
 
-                        // Loop through each employee and month combination to update work hours and OT hours
+                        // Loop through each employee and month combination to update work hours
                         foreach (var employeeMonth in employeeMonths)
                         {
                             string employeeId = employeeMonth.Item1;
                             int year = employeeMonth.Item2;
                             int month = employeeMonth.Item3;
+                            
 
-                            using (SqlCommand selectWorkHoursAndOtCmd = new SqlCommand(selectWorkHoursAndOtQuery, connection))
+                            using (SqlCommand selectWorkHoursCmd = new SqlCommand(selectWorkHoursQuery, connection))
                             {
-                                selectWorkHoursAndOtCmd.Parameters.AddWithValue("@employeeId", employeeId);
-                                selectWorkHoursAndOtCmd.Parameters.AddWithValue("@year", year);
-                                selectWorkHoursAndOtCmd.Parameters.AddWithValue("@month", month);
+                                selectWorkHoursCmd.Parameters.AddWithValue("@employeeId", employeeId);
+                                selectWorkHoursCmd.Parameters.AddWithValue("@year", year);
+                                selectWorkHoursCmd.Parameters.AddWithValue("@month", month);
 
-                                using (SqlDataReader workHoursReader = selectWorkHoursAndOtCmd.ExecuteReader())
+                                using (SqlDataReader workHoursReader = selectWorkHoursCmd.ExecuteReader())
                                 {
                                     if (workHoursReader.Read())
                                     {
                                         double totalWorkHours = workHoursReader.IsDBNull(0) ? 0.0 : Convert.ToDouble(workHoursReader.GetDecimal(0));
-                                        double totalOtHours = workHoursReader.IsDBNull(1) ? 0.0 : Convert.ToDouble(workHoursReader.GetDecimal(1));
+                                        double totalOtHours = workHoursReader.IsDBNull(0) ? 0.0 : Convert.ToDouble(workHoursReader.GetDecimal(0));
                                         DateTime monthDate = new DateTime(year, month, 1);
 
                                         workHoursReader.Close(); // Close the reader before executing another command
@@ -253,7 +254,7 @@ namespace EmployeeManagementSystem
                                             updateOrInsertCmd.Parameters.AddWithValue("@year", year);
                                             updateOrInsertCmd.Parameters.AddWithValue("@month", month);
                                             updateOrInsertCmd.Parameters.AddWithValue("@totalWorkHours", totalWorkHours);
-                                            updateOrInsertCmd.Parameters.AddWithValue("@totalOtHours", totalOtHours); // Add total OT hours
+                                            //updateOrInsertCmd.Parameters.AddWithValue("@totalOtHours", totalOtHours); // Add total OT hours
                                             updateOrInsertCmd.Parameters.AddWithValue("@date", monthDate);
 
                                             updateOrInsertCmd.ExecuteNonQuery();
@@ -268,7 +269,7 @@ namespace EmployeeManagementSystem
                         }
                     }
 
-                    MessageBox.Show("Work hours and OT hours updated successfully for all employees!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Work hours updated successfully for all employees!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
@@ -280,10 +281,8 @@ namespace EmployeeManagementSystem
 
 
 
-
         private void SearchWorkHours(string employeeId, int year, int month)
         {
-            string connectionString = dataSource.dataString;
 
             string query = @"
                         SELECT 
@@ -298,7 +297,7 @@ namespace EmployeeManagementSystem
 
             try
             {
-                using (SqlConnection connect = new SqlConnection(connectionString))
+                using (SqlConnection connect = new SqlConnection(dataSource.dataString))
                 {
                     connect.Open();
 
@@ -441,11 +440,9 @@ namespace EmployeeManagementSystem
                                                 VALUES (@employeeId, @leaveMonth, @totalLeaveDays);
                                             END;";
 
-            string connectionString = dataSource.dataString;
-
             try
             {
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlConnection connection = new SqlConnection(dataSource.dataString))
                 {
                     connection.Open();
 
@@ -539,7 +536,7 @@ namespace EmployeeManagementSystem
         private void SearchLeaveDays(string employeeId, int year, int month)
         {
             string connectionString = dataSource.dataString;
-
+                
             string query = @"
                             SELECT 
                                 ISNULL(total_leave_days / 8.0, 0) AS adjusted_leave_days
@@ -607,17 +604,12 @@ namespace EmployeeManagementSystem
             }
         }
 
-        private void siticoneDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void sqlDataAdapter1_RowUpdated(object sender, SqlRowUpdatedEventArgs e)
         {
 
         }
 
-        private void dailyPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void sqlConnection1_InfoMessage(object sender, SqlInfoMessageEventArgs e)
+        private void sqlDataAdapter1_RowUpdated_1(object sender, SqlRowUpdatedEventArgs e)
         {
 
         }

@@ -75,7 +75,6 @@ namespace EmployeeManagementSystem
             this.pictureBox1.Size = new System.Drawing.Size(146, 140);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -88,7 +87,6 @@ namespace EmployeeManagementSystem
             this.label1.Size = new System.Drawing.Size(108, 34);
             this.label1.TabIndex = 2;
             this.label1.Text = "System";
-            this.label1.Click += new System.EventHandler(this.label6_Click);
             // 
             // label6
             // 
@@ -101,7 +99,6 @@ namespace EmployeeManagementSystem
             this.label6.Size = new System.Drawing.Size(311, 34);
             this.label6.TabIndex = 2;
             this.label6.Text = "Employee Management";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // login_signupBtn
             // 
@@ -169,9 +166,9 @@ namespace EmployeeManagementSystem
             this.label3.Location = new System.Drawing.Point(411, 153);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 18);
+            this.label3.Size = new System.Drawing.Size(136, 18);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Username:";
+            this.label3.Text = "Username or Email";
             // 
             // login_username
             // 
@@ -202,9 +199,9 @@ namespace EmployeeManagementSystem
             this.label4.Location = new System.Drawing.Point(411, 248);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 18);
+            this.label4.Size = new System.Drawing.Size(74, 18);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Password:";
+            this.label4.Text = "Password";
             // 
             // login_showPass
             // 

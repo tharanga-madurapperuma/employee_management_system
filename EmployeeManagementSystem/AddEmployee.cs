@@ -51,8 +51,7 @@ namespace EmployeeManagementSystem
                 || addEmployee_gender.Text == ""
                 || addEmployee_phoneNum.Text == ""
                 || addEmployee_position.Text == ""
-                || addEmployee_status.Text == ""
-                || addEmployee_picture.Image == null)
+                || addEmployee_status.Text == "")
             {
                 MessageBox.Show("Please fill all blank fields"
                     , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -85,7 +84,7 @@ namespace EmployeeManagementSystem
                                     "VALUES(@employeeID, @fullName, @gender, @contactNum" +
                                     ", @position, @image, @salary, @insertDate, @status)";
 
-                                string path = Path.Combine(@"D:\Programmig\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManagementSystem\EmployeeManagementSystem\Directory\"
+                                string path = Path.Combine(@"D:\Programming\Visual Studio\Employee-Management-System-in-CSharp\EmployeeManagementSystem\EmployeeManagementSystem\Directory\"
                                     + addEmployee_id.Text.Trim() + ".jpg");
 
                                 string directoryPath = Path.GetDirectoryName(path);
@@ -95,7 +94,6 @@ namespace EmployeeManagementSystem
                                     Directory.CreateDirectory(directoryPath);
                                 }
 
-                                File.Copy(addEmployee_picture.ImageLocation, path, true);
 
                                 using(SqlCommand cmd = new SqlCommand(insertData, connect))
                                 {
@@ -144,7 +142,6 @@ namespace EmployeeManagementSystem
                 if (dialog.ShowDialog() == DialogResult.OK)
                 {
                     imagePath = dialog.FileName;
-                    addEmployee_picture.ImageLocation = imagePath;
                 }
             }
             catch(Exception ex)
@@ -165,18 +162,7 @@ namespace EmployeeManagementSystem
                 addEmployee_phoneNum.Text = row.Cells[4].Value.ToString();
                 addEmployee_position.Text = row.Cells[5].Value.ToString();
 
-                string imagePath = row.Cells[6].Value.ToString();
-
-                if(imagePath != null)
-                {
-                    addEmployee_picture.Image = Image.FromFile(imagePath);
-                }
-                else
-                {
-                    addEmployee_picture.Image = null;
-                }
-
-                addEmployee_status.Text = row.Cells[8].Value.ToString();
+                addEmployee_status.Text = row.Cells[7].Value.ToString();
             }
         }
 
@@ -188,7 +174,6 @@ namespace EmployeeManagementSystem
             addEmployee_phoneNum.Text = "";
             addEmployee_position.SelectedIndex = -1;
             addEmployee_status.SelectedIndex = -1;
-            addEmployee_picture.Image = null;
         }
 
         private void addEmployee_updateBtn_Click(object sender, EventArgs e)
@@ -198,8 +183,7 @@ namespace EmployeeManagementSystem
                 || addEmployee_gender.Text == ""
                 || addEmployee_phoneNum.Text == ""
                 || addEmployee_position.Text == ""
-                || addEmployee_status.Text == ""
-                || addEmployee_picture.Image == null)
+                || addEmployee_status.Text == "")
             {
                 MessageBox.Show("Please fill all blank fields"
                     , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -219,7 +203,7 @@ namespace EmployeeManagementSystem
 
                         string updateData = "UPDATE employees SET full_name = @fullName" +
                             ", gender = @gender, contact_number = @contactNum" +
-                            ", position = @position, update_date = @updateDate, status = @status " +
+                            ", position = @position, update_date = @updateDate, salary=@salary, status = @status " +
                             "WHERE employee_id = @employeeID";
 
                         using (SqlCommand cmd = new SqlCommand(updateData, connect))
@@ -231,6 +215,7 @@ namespace EmployeeManagementSystem
                             cmd.Parameters.AddWithValue("@updateDate", today);
                             cmd.Parameters.AddWithValue("@status", addEmployee_status.Text.Trim());
                             cmd.Parameters.AddWithValue("@employeeID", addEmployee_id.Text.Trim());
+                            cmd.Parameters.AddWithValue("@salary", dataSource.netSalary);
 
                             cmd.ExecuteNonQuery();
 
@@ -273,8 +258,7 @@ namespace EmployeeManagementSystem
                 || addEmployee_gender.Text == ""
                 || addEmployee_phoneNum.Text == ""
                 || addEmployee_position.Text == ""
-                || addEmployee_status.Text == ""
-                || addEmployee_picture.Image == null)
+                || addEmployee_status.Text == "")
             {
                 MessageBox.Show("Please fill all blank fields"
                     , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -329,14 +313,5 @@ namespace EmployeeManagementSystem
             }
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void AddEmployee_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

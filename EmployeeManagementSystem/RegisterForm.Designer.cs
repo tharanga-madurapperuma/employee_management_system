@@ -44,10 +44,10 @@ namespace EmployeeManagementSystem
             this.label6 = new System.Windows.Forms.Label();
             this.signup_loginBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.signup_firstName = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.signup_lastName = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -125,9 +125,9 @@ namespace EmployeeManagementSystem
             this.label3.Location = new System.Drawing.Point(37, 241);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 18);
+            this.label3.Size = new System.Drawing.Size(136, 18);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Email";
+            this.label3.Text = "Username or Email";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
@@ -241,16 +241,16 @@ namespace EmployeeManagementSystem
             this.label5.TabIndex = 0;
             this.label5.Text = "Already signup... login here...";
             // 
-            // textBox1
+            // signup_firstName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(41, 120);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(312, 36);
-            this.textBox1.TabIndex = 19;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.signup_firstName.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_firstName.Location = new System.Drawing.Point(41, 120);
+            this.signup_firstName.Margin = new System.Windows.Forms.Padding(4);
+            this.signup_firstName.Multiline = true;
+            this.signup_firstName.Name = "signup_firstName";
+            this.signup_firstName.Size = new System.Drawing.Size(312, 36);
+            this.signup_firstName.TabIndex = 19;
+            this.signup_firstName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label7
             // 
@@ -275,17 +275,17 @@ namespace EmployeeManagementSystem
             this.textBox2.Size = new System.Drawing.Size(312, 36);
             this.textBox2.TabIndex = 21;
             // 
-            // label8
+            // signup_lastName
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.label8.Location = new System.Drawing.Point(37, 170);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 18);
-            this.label8.TabIndex = 20;
-            this.label8.Text = "Last Name";
+            this.signup_lastName.AutoSize = true;
+            this.signup_lastName.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_lastName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.signup_lastName.Location = new System.Drawing.Point(37, 170);
+            this.signup_lastName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.signup_lastName.Name = "signup_lastName";
+            this.signup_lastName.Size = new System.Drawing.Size(81, 18);
+            this.signup_lastName.TabIndex = 20;
+            this.signup_lastName.Text = "Last Name";
             // 
             // RegisterForm
             // 
@@ -294,8 +294,8 @@ namespace EmployeeManagementSystem
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(767, 492);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.signup_lastName);
+            this.Controls.Add(this.signup_firstName);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.signup_btn);
             this.Controls.Add(this.signup_showPass);
@@ -335,9 +335,9 @@ namespace EmployeeManagementSystem
         private System.Windows.Forms.Button signup_loginBtn;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox signup_firstName;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label signup_lastName;
     }
 }
